@@ -28,7 +28,7 @@ function SocialComponent() {
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                 alt=""
               />
-              <span className="ml-2 text-white ">LinkedIn</span>
+              <span className="ml-2 text-white ">Github</span>
             </div>
           </Link>
           <Link href={"https://www.instagram.com/is_hanss/"} target="_blank">
@@ -38,7 +38,7 @@ function SocialComponent() {
                 src="https://static.vecteezy.com/system/resources/previews/017/743/717/non_2x/instagram-icon-logo-free-png.png"
                 alt=""
               />
-              <span className="ml-2 text-white ">LinkedIn</span>
+              <span className="ml-2 text-white ">Instagram</span>
             </div>
           </Link>
           <Link href={"mailto:melchorhans@gmail.com"}>
