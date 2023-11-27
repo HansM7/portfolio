@@ -2,12 +2,12 @@
 
 import { Button } from "primereact/button";
 import Reveal, { Fade } from "react-awesome-reveal";
-import { keyframes } from "@emotion/react";
 import "primeicons/primeicons.css";
 
 function AboutComponent() {
   function handleCv() {
-    // open file
+    const fileUrl = "files/curriculum.pdf";
+    window.open(fileUrl, "_blank");
   }
 
   return (

@@ -11,7 +11,7 @@ function ExperienceComponent() {
         </div>
         <div className="pt-1 px-4">
           <div className=" hover:px-2 transition-all cursor-default ">
-            <h3 className="leading-[0]">
+            <h3 className="leading-[1]">
               Desarrollador de Software - Academia preuniversitaria
             </h3>
             <p className="text-sm text-slate-400 ">Mayo 2022 - Julio 2023 </p>
