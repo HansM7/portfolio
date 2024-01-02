@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.cdnfonts.com/css/onest');
+
+*{
+  font-family: system-ui,sans-serif;             
+}
+
 body {
   background-color: #334155;
+  
 }
 
 @keyframes floatAnimation {
@@ -28,6 +35,10 @@ body {
 
 .card:hover img {
   transform: scale(1.1);
+}
+
+.is-tag{
+  border:1px solid rgb(253 230 138);
 }
 
 *a {

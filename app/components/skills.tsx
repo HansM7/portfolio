@@ -65,7 +65,7 @@ function SkillsComponent() {
           <div className="grid grid-cols-6 gap-3">
             {skills.map((item, index) => (
               <div
-                className="rounded-md overflow-hidden max-w-[10rem] flex flex-col justify-between text-center pt-2"
+                className="rounded-md overflow-hidden max-w-[5rem] flex flex-col justify-between text-center pt-2"
                 key={index}
               >
                 <img
