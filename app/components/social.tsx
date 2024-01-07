@@ -4,10 +4,12 @@ function SocialComponent() {
   return (
     <div className="h-auto text-white pb-[12rem] px-1 mt-12 ">
       <div>
-        <h1 className="text-[#ca90fc]">Redes sociales</h1>
+        <h1 className="text-purple-300 font-semibold text-3xl">
+          Mi redes sociales
+        </h1>
       </div>
       <div className="pt-1 px-2">
-        <div className="grid grid-cols-2  md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 gap-4">
           <Link
             href={"https://www.linkedin.com/in/hans-melchor/"}
             target="_blank"

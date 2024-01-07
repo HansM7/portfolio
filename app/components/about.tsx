@@ -5,7 +5,10 @@ import Reveal, { Fade } from "react-awesome-reveal";
 import "primeicons/primeicons.css";
 
 function AboutComponent() {
-  function handleCv() {
+
+  
+  
+    function handleCv() {
     const fileUrl = "files/curriculum.pdf";
     window.open(fileUrl, "_blank");
   }

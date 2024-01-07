@@ -26,7 +26,7 @@ function ExperienceComponent() {
     <Reveal>
       <div className="text-white h-auto pb-4 px-1">
         <div>
-          <h1 className="text-purple-300 font-semibold text-3xl">Experiencia laboral</h1>
+          <h1 className="text-purple-300 font-semibold text-3xl">Mi experiencia laboral</h1>
         </div>
         <div className="pt-1 px-4">
           {experience.map((exp, index) => (

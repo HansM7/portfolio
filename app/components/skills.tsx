@@ -59,10 +59,12 @@ function SkillsComponent() {
     <Reveal>
       <div className="h-auto text-white pb-4 px-1">
         <div>
-          <h1 className="text-[#ca90fc]">Conocimientos</h1>
+          <h1 className="text-purple-300 font-semibold text-3xl">
+            Mis habilidades
+          </h1>
         </div>
         <div className="pt-1 px-4">
-          <div className="grid grid-cols-6 gap-3">
+          <div className="grid grid-cols-4 md:grid-cols-6 gap-3">
             {skills.map((item, index) => (
               <div
                 className="rounded-md overflow-hidden max-w-[5rem] flex flex-col justify-between text-center pt-2"

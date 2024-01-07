@@ -9,12 +9,12 @@ function ProjectsComponent() {
     <Reveal>
       <div className="h-auto text-white pb-4 px-1 mt-12">
         <div>
-          <h1 className="text-[#ca90fc]">Mis proyectos</h1>
+          <h1 className="text-purple-300 font-semibold text-3xl">Mis demos</h1>
         </div>
         <div className="pt-1 px-2">
           <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
             <div>
-              <span className="text-white decoration-inherit  font-bold">
+              <span className="text-white decoration-inherit text-xl">
                 Pokedex
               </span>
               <Link
@@ -56,7 +56,7 @@ function ProjectsComponent() {
             </div>
 
             <div>
-              <span className="text-white decoration-inherit font-bold">
+              <span className="text-white decoration-inherit text-xl">
                 App list
               </span>
               <Link href={"https://app-list-zeta.vercel.app/"} target="_blank">
